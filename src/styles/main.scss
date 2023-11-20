@@ -107,8 +107,19 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    
+    .image-text-section__text_container__cellPhone {
+        display: none;
+    }
     @media (max-width: 768px) {
         display: block;
+        .image-text-section__text_container__cellPhone {
+            display: block;
+            margin-top: 18px;
+        }
+        .image-text-section__text_container {
+            display: none;
+        }
     }
 
     img {
@@ -117,6 +128,9 @@ body {
 
     &__text_container {
         padding: 0 2vw;
+        &__cellPhone {
+            display: none;
+        }
 
         h2 {
             margin-bottom: 24px;
