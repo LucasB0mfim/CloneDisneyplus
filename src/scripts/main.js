@@ -1,4 +1,3 @@
-alert("Por favor, reduza o zoom da guia para uma melhor experiência!");
 document.addEventListener("DOMContentLoaded", function() {
     const buttons = document.querySelectorAll("[data-tab-button]");
     const questions = document.querySelectorAll("[data-faq-question]");
